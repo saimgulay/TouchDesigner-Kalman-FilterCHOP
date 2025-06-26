@@ -30,8 +30,6 @@ A fully configurable multi-channel Kalman Filter implemented in TouchDesigner us
 
 
 
-FULL DOCUMENTATION:
-
 # KalmanFilterCHOP: Real-Time Adaptive Filtering for TouchDesigner
 
 ## Introduction
