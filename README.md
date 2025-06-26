@@ -6,7 +6,7 @@ A fully configurable multi-channel Kalman Filter implemented in TouchDesigner us
 
 ---
 
-## ✨ Features
+## Features
 
 - Multi-channel, n-dimensional Kalman filtering
 - Adjustable Process & Measurement Noise (Q, R)
@@ -19,7 +19,7 @@ A fully configurable multi-channel Kalman Filter implemented in TouchDesigner us
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Drag & drop `kalmanfilter1.tox` into your TouchDesigner network.
 2. Connect a CHOP input (e.g. Noise, LFO, OSC).
