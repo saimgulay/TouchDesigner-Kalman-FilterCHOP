@@ -1,4 +1,4 @@
-# KalmanFilterCHOP
+# KalmanFilterCHOP — Real-Time Multi-Channel Kalman Filtering for TouchDesigner
 
 A fully configurable multi-channel Kalman Filter implemented in TouchDesigner using Script CHOP.
 
@@ -132,4 +132,5 @@ Eventually, this logic might be rewritten as a C++ CHOP for maximum CPU efficien
 
 ## 📄 License
 
-[MIT](./LICENSE)
+MIT License – see [LICENSE](./LICENSE) for details.
+
