@@ -10,6 +10,12 @@ A fully configurable multi-channel Kalman Filter implemented in TouchDesigner us
 
 ---
 
+
+For more information see [Wiki](https://github.com/saimgulay/TouchDesigner-Kalman-FilterCHOP/wiki/KalmanFilter-CHOP)
+
+---
+
+
 ## 🔍 Overview
 
 The Kalman Filter is a recursive algorithm for optimal estimation of dynamic systems under uncertainty. Widely used across disciplines, it combines prediction and correction to filter noisy measurements and estimate hidden variables.
