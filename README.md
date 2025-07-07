@@ -16,7 +16,7 @@ The Kalman Filter is a recursive algorithm for optimal estimation of dynamic sys
 
 Its applications span from aerospace navigation, robotics, autonomous vehicles, and signal processing, to finance, neuroscience, and even interactive art installations. Whether used for sensor fusion, object tracking, motion capture, or predictive modelling, the Kalman Filter remains a cornerstone in real-time data interpretation.
 
-This document provides a domain-wise breakdown of its diverse applications — from spacecraft attitude control to kinetic art stabilisation.
+This document provides a domain-wise breakdown of its application in TouchDesigner in a straightforward way.
 
 ---
 
