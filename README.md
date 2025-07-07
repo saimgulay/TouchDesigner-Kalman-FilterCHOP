@@ -6,6 +6,10 @@ A fully configurable multi-channel Kalman Filter implemented in TouchDesigner us
 
 ---
 
+![KalmanFilterCHOP](images/Kalman_Full_Screen.png)
+
+---
+
 ## Features
 
 - Multi-channel, n-dimensional Kalman filtering
