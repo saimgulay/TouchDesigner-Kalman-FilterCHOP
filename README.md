@@ -10,6 +10,17 @@ A fully configurable multi-channel Kalman Filter implemented in TouchDesigner us
 
 ---
 
+## 🔍 Overview
+
+The Kalman Filter is a recursive algorithm for optimal estimation of dynamic systems under uncertainty. Widely used across disciplines, it combines prediction and correction to filter noisy measurements and estimate hidden variables.
+
+Its applications span from aerospace navigation, robotics, autonomous vehicles, and signal processing, to finance, neuroscience, and even interactive art installations. Whether used for sensor fusion, object tracking, motion capture, or predictive modelling, the Kalman Filter remains a cornerstone in real-time data interpretation.
+
+This document provides a domain-wise breakdown of its diverse applications — from spacecraft attitude control to kinetic art stabilisation.
+
+---
+
+
 ## Features
 
 - Multi-channel, n-dimensional Kalman filtering
@@ -65,6 +76,16 @@ Compared to smoothing or lag CHOPs, Kalman filtering offers:
 - With some care: speed/slope control, multi-pass refinement, and per-sample filtering  
 
 All of that is now implemented inside `kalmanfilter1`, with a compact parameter UI and an internal state machine that handles reset, reconfiguration, and overflow-safe history tracking.
+
+The n-dimensional Kalman filter is a recursive Bayesian estimator widely used for state estimation in linear dynamical systems with Gaussian noise. Its standard formulation assumes a process model of the form:
+
+  **xₖ = A xₖ₋₁ + w, w ~ 𝒩(0, Q)**  
+  **zₖ = H xₖ + v, v ~ 𝒩(0, R)**
+
+where **xₖ** is the hidden state at time *k*, **zₖ** is the observed measurement, **A** is the state transition matrix, **H** is the observation matrix, and **Q**, **R** are the process and observation noise covariances, respectively. This formulation was first introduced by Rudolf E. Kalman in his seminal paper *“A New Approach to Linear Filtering and Prediction Problems”* ([Kalman, 1960](https://doi.org/10.1115/1.3662552)), and has since become a foundational tool in control theory, navigation, signal processing, and robotics.
+
+In practical applications, numerical instability can arise during matrix inversion (especially in the covariance update step). To address this, various robust Kalman filtering approaches have been proposed, such as those discussed by Cipra & Romera (1991) in *“Robust Kalman Filter and its Application in Time Series Analysis”*, where inversion fallback strategies and robustified updates are presented for handling ill-conditioned or uncertain models.
+
 
 ---
 
