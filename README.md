@@ -74,7 +74,7 @@ This wasn’t just about filtering—it was about making signal behavior visible
 
 ## Justification
 
-Compared to smoothing or lag CHOPs, Kalman filtering offers:
+Compared to other Filter CHOPs, Kalman filtering offers:
 
 - A probabilistic model: not just smoothing, but estimation  
 - Configurable trust in system dynamics (`Q`) vs. measurements (`R`)  
