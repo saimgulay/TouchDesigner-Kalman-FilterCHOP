@@ -11,7 +11,7 @@ A fully configurable multi-channel Kalman Filter implemented in TouchDesigner us
 ---
 
 
-For more information see [Wiki](https://github.com/saimgulay/TouchDesigner-Kalman-FilterCHOP/wiki/KalmanFilter-CHOP).
+For more information see [Wiki](https://github.com/saimgulay/TouchDesigner-Kalman-FilterCHOP/wiki/Wiki:-KalmanFilter-CHOP).
 
 ---
 
