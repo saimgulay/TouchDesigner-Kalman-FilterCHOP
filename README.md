@@ -140,6 +140,11 @@ Eventually, this logic might be rewritten as a C++ CHOP for maximum CPU efficien
 
 ---
 
+
+For more information see [Wiki](https://github.com/saimgulay/TouchDesigner-Kalman-FilterCHOP/wiki/Wiki:-KalmanFilter-CHOP).
+
+---
+
 ## Appendix
 
 ### Ramp Input Test  
@@ -160,12 +165,6 @@ Eventually, this logic might be rewritten as a C++ CHOP for maximum CPU efficien
 ### Kalman Filter Step Response  
 ![StepResponse](images/StepResponse.png)
 
----
-
-
-For more information see [Wiki](https://github.com/saimgulay/TouchDesigner-Kalman-FilterCHOP/wiki/Wiki:-KalmanFilter-CHOP).
-
----
 
 
 ## 📄 License
